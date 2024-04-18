@@ -113,3 +113,15 @@ a.sidebar-link:hover{
 .sidebar-item{
     position: relative;
 }
+
+.sidebar:not(.expand) .sidebar-item .sidebar-dropdown{
+    position: absolute;
+    top: 0;
+   left: 70px;
+   background-color: #0e2238;
+   padding: 0;
+   min-width: 15rem;
+   display: none; 
+}
+
+.sidebar:not(.expand) .sidebar-item:hover .has-dropdown
