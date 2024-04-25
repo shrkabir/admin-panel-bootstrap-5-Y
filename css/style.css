@@ -124,4 +124,9 @@ a.sidebar-link:hover{
    display: none; 
 }
 
-.sidebar:not(.expand) .sidebar-item:hover .has-dropdown
+.sidebar:not(.expand) .sidebar-item:hover .has-dropdown .sidebar-dropdown{
+    display: block;
+    max-height: 15em;
+    width: 100%;
+    opacity: 1;
+}
