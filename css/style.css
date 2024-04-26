@@ -130,3 +130,7 @@ a.sidebar-link:hover{
     width: 100%;
     opacity: 1;
 }
+
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after{
+    
+}
