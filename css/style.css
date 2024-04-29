@@ -132,5 +132,10 @@ a.sidebar-link:hover{
 }
 
 #sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after{
-    
+    border: solid;
+    border-width: 0 0.075rem .075rem 0;
+    content: "";
+    display: inline-block;
+    padding: 2px;
+    position: absolute;
 }
